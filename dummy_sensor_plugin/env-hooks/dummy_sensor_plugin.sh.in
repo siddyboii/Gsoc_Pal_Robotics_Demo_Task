@@ -1,0 +1,7 @@
+#!/bin/bash
+# Dynamically set GZ_SIM_SYSTEM_PLUGIN_PATH to include the install path of this package's lib directory
+if [ -z "$GZ_SIM_SYSTEM_PLUGIN_PATH" ]; then
+    export GZ_SIM_SYSTEM_PLUGIN_PATH=@CMAKE_INSTALL_PREFIX@/lib/@PROJECT_NAME@
+else
+    export GZ_SIM_SYSTEM_PLUGIN_PATH=@CMAKE_INSTALL_PREFIX@/lib/@PROJECT_NAME@:$GZ_SIM_SYSTEM_PLUGIN_PATH
+fi

@@ -1,0 +1,25 @@
+# Ignore log files and directories
+*.log
+log/
+logs/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore build and install directories (if accidentally nested in src)
+build/
+install/
+
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore common IDE files
+*.swp
+*.swo
+.idea/
+
+# Ignore local configuration files
+*.local
