@@ -3,6 +3,8 @@
 This repository contains the source code for a ROS 2 and Gazebo Harmonic demo project featuring a PMB2 robot in a warehouse environment. It includes a custom `DummySensor` plugin that publishes "Hello World" to a ROS 2 topic via `gz-transport`. The project meets the requirements of setting up Gazebo Harmonic, creating a demo with launch files and configurations, and integrating a new sensor plugin, all tailored to an intralogistics context.
 ![image](https://github.com/user-attachments/assets/5b9a2acf-6a82-4225-a088-981beb353586)
 
+Watch a demo of the PMB2 robot and DummySensor output: [YouTube Video](https://www.youtube.com/watch?v=-Gpj7g7VCr0)
+
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
