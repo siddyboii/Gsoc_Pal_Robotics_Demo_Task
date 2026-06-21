@@ -11,10 +11,10 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(urdf_tutorial REQUIRED)
-find_package(dummy_sensor_plugin REQUIRED)
+#find_package(dummy_sensor_plugin REQUIRED)
 
 install (
-  DIRECTORY robots meshes urdf launch rviz
+  DIRECTORY robots meshes urdf rviz
   DESTINATION share/${PROJECT_NAME}
 )
 
